@@ -42,6 +42,7 @@
   * vim-commentary
   * vim-airline
   * vim-gitgutter
+  * vim-json
   * syntastic
   * ctrl-p
 * Symlink to .vimrc from github
