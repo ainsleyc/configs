@@ -2,6 +2,7 @@
 " syntax highlights
 syntax on
 filetype plugin indent on
+au BufNewFile,BufRead *.json set filetype=json
 
 " Pathogen
 set nocp
