@@ -12,7 +12,7 @@ export NVM_DIR="/Users/ainsleychong/.nvm"
 
 # command aliases
 alias c='clear'
-alias c='byobu'
+alias b='byobu'
 
 # work specific aliases
 alias vim-e='vim /var/factual/opt/etc/env.yml'
