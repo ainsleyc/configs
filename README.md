@@ -19,8 +19,8 @@
   * Install jshint
   * Install coffeelint
   * Install jsonlint
-* TBD Install rvm and ruby
-  * TBD Install rubylint
+* Install rvm and ruby
+  * Install sass
 * Clone configs from github
 
 ### Iterm
