@@ -21,6 +21,7 @@
   * Install jsonlint
 * Install rvm and ruby
   * Install sass
+* Install phantomjs
 * Clone configs from github
 
 ### Iterm
