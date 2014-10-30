@@ -7,6 +7,7 @@
 * Mission control --> Add additional desktop spaces
 * Keyboard --> Keyboard --> Modifier Keys --> Change Capslock to Ctrl
 * Install brew
+* Install phantomjs
 * Install byobu
 * Install Karabiner
   * vi mode
@@ -19,9 +20,11 @@
   * Install jshint
   * Install coffeelint
   * Install jsonlint
+  * Install phantomjs
+  * Install mocha-phantomjs
 * Install rvm and ruby
   * Install sass
-* Install phantomjs
+
 * Clone configs from github
 
 ### Iterm
