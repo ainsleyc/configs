@@ -49,4 +49,6 @@
   * vim-json
   * syntastic
   * ctrl-p
+  * snipmate
+   * Add coffeescript snips
 * Symlink to .vimrc from github
