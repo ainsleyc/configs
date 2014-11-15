@@ -50,5 +50,5 @@
   * syntastic
   * ctrl-p
   * snipmate
-    * Add coffeescript snips
+    * symlink coffeescript snippets
 * Symlink to .vimrc from github
