@@ -22,5 +22,5 @@ alias cd-w='cd /var/factual/front/apps/www'
 alias cd-a='cd /var/factual/front/apps/apiv4'
 alias cd-l='cd /var/factual/opt/logs'
 
-alias dev='ssh ainsley@10.20.10.230'
+alias dev='ssh ainsley@10.20.10.119'
 alias devc='ssh root@10.199.6.118'
