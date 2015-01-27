@@ -41,6 +41,7 @@ let g:airline_powerline_fonts = 1
 " ctrl-p
 let g:ctrlp_map = '<c-p>'
 highlight clear SignColumn
+let g:ctrlp_working_path_mode = 'c'
 
 " column line
 set colorcolumn=80
