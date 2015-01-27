@@ -41,7 +41,7 @@ let g:airline_powerline_fonts = 1
 " ctrl-p
 let g:ctrlp_map = '<c-p>'
 highlight clear SignColumn
-let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_working_path_mode = ''
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 " column line
