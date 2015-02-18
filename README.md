@@ -47,6 +47,7 @@
   * vim-airline
   * vim-gitgutter
   * vim-json
+  * vim-fugitive
   * syntastic
   * ctrl-p
   * snipmate
