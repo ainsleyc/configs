@@ -37,7 +37,8 @@
 ### Bash
 * Redirect .bash_profile to .bashrc
   * http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html
-* Symlink to .bashrc from github
+* Symlink to .bashrc
+* Symlink to .gitconfig
 
 ### Vim
 * Install pathogen
@@ -52,4 +53,4 @@
   * ctrl-p
   * snipmate
     * symlink coffeescript snippets
-* Symlink to .vimrc from github
+* Symlink to .vimrc
