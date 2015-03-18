@@ -47,8 +47,8 @@ highlight clear SignColumn
 let g:ctrlp_working_path_mode = ''
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
-" quickfix
-set switchbuf+=usetab,newtab
+" quickfix buffer behavior
+" set switchbuf+=usetab,newtab
 
 " The Silver Searcher
 if executable('ag')
@@ -62,7 +62,7 @@ if executable('ag')
   let g:ctrlp_use_caching = 0
 
   " Ag command
-  command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+  command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|tab split|tabp|q|tabn
 
   " Ag word under cursor
   nnoremap K :Ag '<cword>' .<CR>
