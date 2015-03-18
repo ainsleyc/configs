@@ -48,7 +48,7 @@ let g:ctrlp_working_path_mode = ''
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 " grep word under cursor
-nnoremap K :grep '\b<cword>\b' %:p:h/*<CR>:cw<CR><CR>
+nnoremap K :grep '\b<cword>\b' %:p:h/*<CR>:cw<CR>
 
 " Ag command
 command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
