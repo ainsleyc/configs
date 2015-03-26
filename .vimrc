@@ -38,6 +38,9 @@ set termencoding=utf-8
 let g:airline_theme = 'solarized'
 let g:airline_powerline_fonts = 1
 
+" git-gutter
+let g:gitgutter_max_signs = 1000
+
 " column line
 set colorcolumn=80
 
