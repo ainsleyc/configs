@@ -55,4 +55,5 @@
   * ctrl-p
   * snipmate
     * symlink coffeescript snippets
+  * vim-go
 * Symlink to .vimrc
