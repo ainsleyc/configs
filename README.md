@@ -40,6 +40,7 @@
   * http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html
 * Symlink to .bashrc from github
 * Symlink to .agignore from github
+* Symlink to .gitconfig from github
 
 ### Vim
 * Install pathogen
@@ -49,8 +50,9 @@
   * vim-airline
   * vim-gitgutter
   * vim-json
+  * vim-fugitive
   * syntastic
   * ctrl-p
   * snipmate
     * symlink coffeescript snippets
-* Symlink to .vimrc from github
+* Symlink to .vimrc

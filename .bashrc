@@ -7,7 +7,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$PATH:/home/ainsley/Projects/factual-api-tester:/home/ainsley/.meteor
 
 # NVM
-export NVM_DIR="/Users/ainsleychong/.nvm"
+export NVM_DIR="/home/ainsley/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export DOCKER_HOST=tcp://192.168.59.103:2376
