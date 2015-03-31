@@ -35,9 +35,11 @@
   * General --> Copy Preferences to Profile
 
 ### Bash
+* Install silversearcher-ag
 * Redirect .bash_profile to .bashrc
   * http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html
 * Symlink to .bashrc from github
+* Symlink to .agignore from github
 
 ### Vim
 * Install pathogen
