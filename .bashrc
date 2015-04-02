@@ -7,12 +7,20 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$PATH:/home/ainsley/Projects/factual-api-tester:/home/ainsley/.meteor
 
 # NVM
-export NVM_DIR="/home/ainsley/.nvm"
+if [ "$(uname)" == "Darwin" ]; then
+  export NVM_DIR="/Users/ainsleychong/.nvm"
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+  export NVM_DIR="/home/ainsley/.nvm"
+fi
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export DOCKER_HOST=tcp://192.168.59.103:2376
 export DOCKER_CERT_PATH=/Users/ainsleychong/.boot2docker/certs/boot2docker-vm
 export DOCKER_TLS_VERIFY=1
+
+# Go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 # command aliases
 alias c='clear'
