@@ -22,6 +22,8 @@
   * Install jsonlint
   * Install phantomjs
   * Install mocha-phantomjs
+  * Install grunt-cli
+  * Install gulp
 * Install rvm and ruby
   * Install sass
 
