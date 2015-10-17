@@ -59,3 +59,8 @@
     * symlink coffeescript snippets
   * vim-go
 * Symlink to .vimrc
+
+### Git
+* git config --global user.name "Ainsley Chong"
+* git config --global user.email "ainsley.chong@gmail.com"
+* git config --global core.editor vim
