@@ -33,7 +33,7 @@
 * Download solarized
 * Cmd + i
   * Load Presets --> Import --> Solarized Dark
-  * Window --> Transparency
+  * Window --> Transparency --> ~10%
   * General --> Copy Preferences to Profile
 
 ### Bash
