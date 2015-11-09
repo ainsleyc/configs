@@ -35,6 +35,7 @@
   * Load Presets --> Import --> Solarized Dark
   * Window --> Transparency --> ~10%
   * General --> Copy Preferences to Profile
+  * Minimum Contrast --> ~30%
 
 ### Bash
 * Install silversearcher-ag
