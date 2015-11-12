@@ -30,5 +30,5 @@ alias c='clear'
 alias b='byobu'
 
 # command aliases
-alias dev='ssh 172.17.221.97'
+alias dev='ssh ainsleyc0.mtv.corp.google.com'
 
