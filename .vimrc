@@ -71,5 +71,3 @@ if executable('ag')
   nnoremap K :Ag '<cword>' .<CR>
 endif
 
-" Turn of sql autocomplete
-let g:omni_sql_no_default_maps = 1

@@ -11,9 +11,9 @@ export NVM_IOJS_ORG_MIRROR=https://iojs.org/dist
 
 # NVM
 if [ "$(uname)" == "Darwin" ]; then
-  export NVM_DIR="/Users/ainsleychong/.nvm"
+  export NVM_DIR="/Users/ainsleyc/.nvm"
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
-  export NVM_DIR="/home/ainsley/.nvm"
+  export NVM_DIR="/home/ainsleyc/.nvm"
 fi
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
@@ -28,4 +28,7 @@ export PATH=$PATH:$GOPATH/bin
 # command aliases
 alias c='clear'
 alias b='byobu'
+
+# command aliases
+alias dev='ssh 172.17.221.97'
 
