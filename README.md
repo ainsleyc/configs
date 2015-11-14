@@ -1,9 +1,9 @@
 ## configs
 
 ### Desktop
+* Set desktop wallpaper
 * Display --> Set up dual displays
 * System Preferences --> Mission Control --> Displays have separate Spaces 
-* Set desktop wallpaper
 * Mission control --> Add additional desktop spaces
 * Keyboard --> Keyboard --> Modifier Keys --> Change Capslock to Ctrl
 * Install brew
