@@ -53,6 +53,7 @@
   * vim-gitgutter
   * vim-json
   * vim-fugitive
+  * vim markdown
   * syntastic
   * ctrl-p
   * snipmate

@@ -73,3 +73,6 @@ endif
 
 " Turn of sql autocomplete
 let g:omni_sql_no_default_maps = 1
+
+" Vim Markdown
+let g:vim_markdown_folding_disabled=1
