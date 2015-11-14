@@ -1,9 +1,9 @@
 ## configs
 
 ### Desktop
+* Set desktop wallpaper
 * Display --> Set up dual displays
 * System Preferences --> Mission Control --> Displays have separate Spaces 
-* Set desktop wallpaper
 * Mission control --> Add additional desktop spaces
 * Keyboard --> Keyboard --> Modifier Keys --> Change Capslock to Ctrl
 * Install brew
@@ -33,8 +33,9 @@
 * Download solarized
 * Cmd + i
   * Load Presets --> Import --> Solarized Dark
-  * Window --> Transparency
+  * Window --> Transparency --> ~10%
   * General --> Copy Preferences to Profile
+  * Minimum Contrast --> ~30%
 
 ### Bash
 * Install silversearcher-ag
