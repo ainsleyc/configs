@@ -60,6 +60,7 @@
   * snipmate
     * symlink coffeescript snippets
   * vim-go
+  * NERDTree
 * Symlink to .vimrc
 
 ### Git
