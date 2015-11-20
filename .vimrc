@@ -77,6 +77,8 @@ let g:omni_sql_no_default_maps = 1
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen=1
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Vim Markdown
 let g:vim_markdown_folding_disabled=1
