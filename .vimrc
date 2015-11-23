@@ -79,6 +79,7 @@ map <C-n> :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen=1
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Vim Markdown
 let g:vim_markdown_folding_disabled=1
