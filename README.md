@@ -61,6 +61,8 @@
     * symlink coffeescript snippets
   * vim-go
   * NERDTree
+  * YouCompleteMe
+    * tern_for_vim
 * Symlink to .vimrc
 
 ### Git
