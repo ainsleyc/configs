@@ -5,6 +5,7 @@
 * Display --> Set up dual displays
 * System Preferences --> Mission Control --> Displays have separate Spaces 
 * Mission control --> Add additional desktop spaces
+* Mission control --> Disable Automatically Arrange Spaces
 * Keyboard --> Keyboard --> Modifier Keys --> Change Capslock to Ctrl
 * Install brew
 * Install phantomjs
