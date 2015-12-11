@@ -5,6 +5,7 @@
 * Display --> Set up dual displays
 * System Preferences --> Mission Control --> Displays have separate Spaces 
 * Mission control --> Add additional desktop spaces
+* Mission control --> Disable Automatically Arrange Spaces
 * Keyboard --> Keyboard --> Modifier Keys --> Change Capslock to Ctrl
 * Install brew
 * Install phantomjs
@@ -54,11 +55,15 @@
   * vim-gitgutter
   * vim-json
   * vim-fugitive
+  * vim markdown
   * syntastic
   * ctrl-p
   * snipmate
     * symlink coffeescript snippets
   * vim-go
+  * NERDTree
+  * YouCompleteMe
+    * tern_for_vim
 * Symlink to .vimrc
 
 ### Git

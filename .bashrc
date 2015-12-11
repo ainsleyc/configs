@@ -1,3 +1,6 @@
+# Bash history
+HISTSIZE=10000
+HISTFILESIZE=20000
 
 # iterm colors
 export CLICOLOR=1
