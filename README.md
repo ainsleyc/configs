@@ -72,4 +72,4 @@
 * git config --global core.editor vim
 
 ### Tmux
-* tmux source .tmux.conf
+* tmux source ~/.tmux.conf
