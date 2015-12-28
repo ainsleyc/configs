@@ -45,6 +45,7 @@
 * Symlink to .bashrc from github
 * Symlink to .agignore from github
 * Symlink to .gitconfig from github
+* Symlink to .tmux.conf from github
 
 ### Vim
 * Install pathogen
