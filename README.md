@@ -45,6 +45,7 @@
 * Symlink to .bashrc from github
 * Symlink to .agignore from github
 * Symlink to .gitconfig from github
+* Symlink to .tmux.conf from github
 
 ### Vim
 * Install pathogen
@@ -70,3 +71,6 @@
 * git config --global user.name "Ainsley Chong"
 * git config --global user.email "ainsley.chong@gmail.com"
 * git config --global core.editor vim
+
+### Tmux
+* tmux source ~/.tmux.conf
