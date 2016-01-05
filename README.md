@@ -65,6 +65,7 @@
   * NERDTree
   * YouCompleteMe
     * tern_for_vim
+  * typescript-vim
 * Symlink to .vimrc
 
 ### Git
