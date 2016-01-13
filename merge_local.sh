@@ -22,27 +22,27 @@ TMUX_PATH="${HOME}/.tmux.conf"
 TMUX_LOCAL_PATH="${HOME}/.vimrc_local.conf"
 
 # .bashrc
-printf "\n### Github ###\n" > ${BASHRC_PATH}
+printf "### Github ###\n" > ${BASHRC_PATH}
 cat ${DIR}/.bashrc >> ${BASHRC_PATH}
-printf "\n### Local ###\n" >> ${BASHRC_PATH}
+printf "### Local ###\n" >> ${BASHRC_PATH}
 if [ -e ${BASHRC_LOCAL_PATH} ] 
 then
   cat ${BASHRC_LOCAL_PATH} >> ${BASHRC_PATH}
 fi
 
 # .vimrc
-printf "\n### Github ###\n" > ${VIMRC_PATH}
+printf "\"### Github ###\n" > ${VIMRC_PATH}
 cat ${DIR}/.vimrc >> ${VIMRC_PATH}
-printf "\n### Local ###\n" >> ${VIMRC_PATH}
+printf "\"### Local ###\n" >> ${VIMRC_PATH}
 if [ -e ${VIMRC_LOCAL_PATH} ] 
 then
   cat ${VIMRC_LOCAL_PATH} >> ${VIMRC_PATH}
 fi
 
 # .tmux.conf
-printf "\n### Github ###\n" > ${TMUX_PATH}
+printf "### Github ###\n" > ${TMUX_PATH}
 cat ${DIR}/.tmux.conf >> ${TMUX_PATH}
-printf "\n### Local ###\n" >> ${TMUX_PATH}
+printf "### Local ###\n" >> ${TMUX_PATH}
 if [ -e ${TMUX_LOCAL_PATH} ] 
 then
   cat ${TMUX_LOCAL_PATH} >> ${TMUX_PATH}
