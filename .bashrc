@@ -5,10 +5,6 @@ HISTFILESIZE=20000
 # iterm colors
 export CLICOLOR=1
 
-# Paths
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-export PATH=$PATH:/home/ainsley/Projects/factual-api-tester:/home/ainsley/.meteor
-
 # NVM
 if [ "$(uname)" == "Darwin" ]; then
   export NVM_DIR="/Users/ainsleyc/.nvm"
