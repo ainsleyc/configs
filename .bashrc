@@ -9,9 +9,6 @@ export CLICOLOR=1
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$PATH:/home/ainsley/Projects/factual-api-tester:/home/ainsley/.meteor
 
-# IO.js
-export NVM_IOJS_ORG_MIRROR=https://iojs.org/dist
-
 # NVM
 if [ "$(uname)" == "Darwin" ]; then
   export NVM_DIR="/Users/ainsleyc/.nvm"
