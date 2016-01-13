@@ -40,10 +40,10 @@ then
 fi
 
 # .tmux.conf
-printf "\n### Github ###\n" > ${VIMRC_PATH}
-cat ${DIR}/.tmux.conf >> ${VIMRC_PATH}
-printf "\n### Local ###\n" >> ${VIMRC_PATH}
-if [ -e ${VIMRC_LOCAL_PATH} ] 
+printf "\n### Github ###\n" > ${TMUX_PATH}
+cat ${DIR}/.tmux.conf >> ${TMUX_PATH}
+printf "\n### Local ###\n" >> ${TMUX_PATH}
+if [ -e ${TMUX_LOCAL_PATH} ] 
 then
-  cat ${VIMRC_LOCAL_PATH} >> ${VIMRC_PATH}
+  cat ${TMUX_LOCAL_PATH} >> ${TMUX_PATH}
 fi
