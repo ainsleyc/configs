@@ -1,7 +1,8 @@
 # Bash history
 HISTCONTROL=ignoreboth
-HISTSIZE=10000
-HISTFILESIZE=20000
+HISTSIZE=100000
+HISTFILESIZE=100000
+shopt -s histappend
 
 # iterm colors
 export CLICOLOR=1
