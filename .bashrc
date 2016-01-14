@@ -4,8 +4,9 @@ HISTSIZE=100000
 HISTFILESIZE=100000
 shopt -s histappend
 
-# window
+# bash built-ins 
 shopt -s checkwinsize
+shopt -s globstar
 
 # iterm colors
 export CLICOLOR=1
