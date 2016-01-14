@@ -1,5 +1,5 @@
 # Bash history
-HISTCONTROL=ignoreboth
+HISTCONTROL=erasedups:ignoredups:ignorespace
 HISTSIZE=100000
 HISTFILESIZE=100000
 shopt -s histappend
