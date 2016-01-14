@@ -27,6 +27,9 @@ set hlsearch
 " Line numbers
 set number
 
+" Json
+au BufNewFile,BufRead *.json set filetype=json
+
 " vim-airline
 set guifont=Droid\ Sans\ Mono\ for\ Powerline:h12
 set laststatus=2
