@@ -4,6 +4,9 @@ HISTSIZE=100000
 HISTFILESIZE=100000
 shopt -s histappend
 
+# window
+shopt -s checkwinsize
+
 # iterm colors
 export CLICOLOR=1
 
