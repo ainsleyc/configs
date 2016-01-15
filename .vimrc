@@ -40,7 +40,23 @@ nnoremap k gk
 
 " Leader
 let mapleader="\<space>"
+
+" Clean trailing whitespace
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+" Save file
+nnoremap <Leader>w :w<CR>
+
+" Copy/paste to system clipboard
+vmap <Leader>y "+y
+vmap <Leader>d "+d
+nmap <Leader>p "+p
+nmap <Leader>P "+P
+vmap <Leader>p "+p
+vmap <Leader>P "+P
+
+" Visual line mode
+nmap <Leader><Leader> V
 
 " Line numbers
 set relativenumber
