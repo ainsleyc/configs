@@ -39,7 +39,7 @@ nnoremap j gj
 nnoremap k gk
 
 " Leader
-let mapleader=","
+let mapleader="\<space>"
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
 " Line numbers
