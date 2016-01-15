@@ -25,7 +25,7 @@ set incsearch
 set hlsearch
 
 " Line numbers
-set number
+set relativenumber
 
 " Json
 au BufNewFile,BufRead *.json set filetype=json
