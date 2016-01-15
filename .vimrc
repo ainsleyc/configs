@@ -38,6 +38,10 @@ inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
 
+" Leader
+let mapleader=","
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
 " Line numbers
 set relativenumber
 
