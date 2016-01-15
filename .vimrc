@@ -23,6 +23,8 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+nnoremap <tab> %
+vnoremap <tab> %
 
 " Line numbers
 set relativenumber
