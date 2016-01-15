@@ -37,6 +37,10 @@
   * Window --> Transparency --> ~10%
   * General --> Copy Preferences to Profile
   * Minimum Contrast --> ~30%
+* Bash word movement shortcuts
+  * Preferences --> Global Shortcut Keys
+    * Map (Ctrl + Command + h) to (Esc + b)
+    * Map (Ctrl + Command + l) to (Esc + f)
 
 ### Bash
 * Install silversearcher-ag
