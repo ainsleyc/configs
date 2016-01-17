@@ -22,6 +22,7 @@ fi
 # Go
 export GOPATH=$HOME/Projects/go
 export PATH=$PATH:$GOPATH/bin
+export PATH=$HOME/Projects/go_appengine:$PATH
 
 # command aliases
 alias c='clear'
