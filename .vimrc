@@ -60,6 +60,7 @@ nmap <Leader><Leader> V
 
 " Line numbers
 set relativenumber
+set number 
 
 " Json
 au BufNewFile,BufRead *.json set filetype=json
