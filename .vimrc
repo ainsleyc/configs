@@ -121,3 +121,11 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " Vim Markdown
 let g:vim_markdown_folding_disabled=1
+
+" Whitespace Trim command
+fun! TrimWhitespace()
+    let l:save_cursor = getpos('.')
+    %s/\s\+$//e
+    call setpos('.', l:save_cursor)
+endfun
+command! TW call TrimWhitespace()
