@@ -53,6 +53,9 @@ nmap <Leader>P "+P
 vmap <Leader>p "+p
 vmap <Leader>P "+P
 
+" Paste Toggle
+set pastetoggle=<leader>t
+
 " Visual line mode
 nmap <Leader><Leader> V
 
