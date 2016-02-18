@@ -80,6 +80,9 @@ let g:gitgutter_max_signs = 1000
 " column line
 set colorcolumn=80
 
+" Matchit
+:runtime macros/matchit.vim
+
 " ctrl-p
 let g:ctrlp_map = '<c-p>'
 highlight clear SignColumn
