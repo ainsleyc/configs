@@ -39,9 +39,6 @@ inoremap <right> <nop>
 " Leader
 let mapleader="\<space>"
 
-" Clean trailing whitespace
-nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
-
 " Save file
 nnoremap <Leader>w :w<CR>
 
