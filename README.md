@@ -64,6 +64,7 @@
   * vim markdown
   * syntastic
   * ctrl-p
+  * MatchTagAlways
   * snipmate
     * symlink coffeescript snippets
   * vim-go
