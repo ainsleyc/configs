@@ -54,7 +54,8 @@
 ### Vim
 * Install pathogen
   * vim-coffee-script
-  * vim-colors-solarized
+  * vim-colors-solarized (fork)
+    * https://github.com/ainsleyc/vim-colors-solarized
   * vim-commentary
   * vim-airline
   * vim-gitgutter
