@@ -37,8 +37,8 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 
 " Leader
-let mapleader="\<space>"
-
+let mapleader=","
+  ,
 " Save file
 nnoremap <Leader>w :w<CR>
 
