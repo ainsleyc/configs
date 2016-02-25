@@ -6,7 +6,6 @@ shopt -s histappend
 
 # bash built-ins 
 shopt -s checkwinsize
-shopt -s globstar
 
 # iterm colors
 export CLICOLOR=1
