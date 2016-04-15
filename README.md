@@ -46,7 +46,7 @@
 * Install silversearcher-ag
 * Redirect .bash_profile to .bashrc
   * http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html
-* Symlink to .bashrc from github
+* source .bashrc from github
 * Symlink to .agignore from github
 * Symlink to .gitconfig from github
 * Symlink to .tmux.conf from github
@@ -72,7 +72,8 @@
   * YouCompleteMe
     * tern_for_vim
   * typescript-vim
-* Symlink to .vimrc
+  * vim-jsbeautify
+* source .vimrc from github
 
 ### Git
 * git config --global user.name "Ainsley Chong"
