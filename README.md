@@ -72,7 +72,6 @@
   * YouCompleteMe
     * tern_for_vim
   * typescript-vim
-  * vim-jsbeautify
 * source .vimrc from github
 
 ### Git
