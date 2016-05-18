@@ -56,9 +56,16 @@ set pastetoggle=<leader>t
 " Visual line mode
 nmap <Leader><Leader> V
 
+" vim-go 
+au FileType go nmap <Leader>dt <Plug>(go-def-tab)
+au FileType go nmap <Leader>i <Plug>(go-info)
+
 " Line numbers
 set relativenumber
 set number 
+
+" Search scrolling
+set scrolloff=999
 
 " Json
 au BufNewFile,BufRead *.json set filetype=json
