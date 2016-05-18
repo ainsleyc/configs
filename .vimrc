@@ -64,9 +64,6 @@ au FileType go nmap <Leader>i <Plug>(go-info)
 set relativenumber
 set number 
 
-" Search scrolling
-set scrolloff=999
-
 " Json
 au BufNewFile,BufRead *.json set filetype=json
 
