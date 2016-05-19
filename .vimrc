@@ -36,30 +36,6 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
-" Leader
-let mapleader=","
-  ,
-" Save file
-nnoremap <Leader>w :w<CR>
-
-" Copy/paste to system clipboard
-vmap <Leader>y "+y
-vmap <Leader>d "+d
-nmap <Leader>p "+p
-nmap <Leader>P "+P
-vmap <Leader>p "+p
-vmap <Leader>P "+P
-
-" Paste Toggle
-set pastetoggle=<leader>t
-
-" Visual line mode
-nmap <Leader><Leader> V
-
-" vim-go 
-au FileType go nmap <Leader>dt <Plug>(go-def-tab)
-au FileType go nmap <Leader>i <Plug>(go-info)
-
 " Line numbers
 set relativenumber
 set number 
