@@ -63,6 +63,11 @@ set colorcolumn=80
 " Matchit
 :runtime macros/matchit.vim
 
+" UltiSnips
+let g:UltiSnipsExpandTrigger = "<c-]>"
+let g:UltiSnipsJumpForwardTrigger = "<c-]>"
+let g:UltiSnipsJumpBackwardTrigger = "<c-b>"
+
 " ctrl-p
 let g:ctrlp_map = '<c-p>'
 highlight clear SignColumn

@@ -72,7 +72,9 @@
   * YouCompleteMe
     * tern_for_vim
   * typescript-vim
+  * UltiSnips
 * source .vimrc from github
+* ln -s ./UltiSnips ./vim/UltiSnips 
 
 ### Git
 * git config --global user.name "Ainsley Chong"
