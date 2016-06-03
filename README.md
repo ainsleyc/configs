@@ -70,11 +70,12 @@
   * vim-go
   * NERDTree
   * YouCompleteMe
-    * tern_for_vim
   * typescript-vim
   * UltiSnips
 * source .vimrc from github
 * ln -s ./UltiSnips ./vim/UltiSnips 
+* Eclim
+  * See troubleshooting tips
 
 ### Git
 * git config --global user.name "Ainsley Chong"
