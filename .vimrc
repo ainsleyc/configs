@@ -40,6 +40,9 @@ inoremap <right> <nop>
 set relativenumber
 set number 
 
+" Backspace
+set backspace=2
+
 " Json
 au BufNewFile,BufRead *.json set filetype=json
 
