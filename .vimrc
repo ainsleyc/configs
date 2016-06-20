@@ -43,6 +43,9 @@ set number
 " Backspace
 set backspace=2
 
+" Paste mode toggle
+set pastetoggle=<f5>
+
 " Json
 au BufNewFile,BufRead *.json set filetype=json
 
