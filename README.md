@@ -10,9 +10,7 @@
 * Install brew
 * Install phantomjs
 * Install byobu
-* Install Karabiner
-  * vi mode
-    * Control_L + hjkl
+* Install Hammerspoon
 * Install Powerline fonts in FontBook
   * https://coderwall.com/p/yiot4q
   * https://github.com/Lokaltog/powerline-fonts
@@ -84,3 +82,6 @@
 
 ### Tmux
 * tmux source ~/.tmux.conf
+
+### Hammerspoon
+* Symlink to .hammerspoon from Github
