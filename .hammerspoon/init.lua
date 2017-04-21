@@ -3,6 +3,7 @@ local application = require("hs.application")
 local eventtap = require("hs.eventtap")
 local hotkey = require("hs.hotkey")
 local osascript = require("hs.osascript")
+local window = require("hs.window")
 
 local mash 	 = {"ctrl", "alt"}
 local mash_shift = {"ctrl", "shift"}
@@ -133,3 +134,7 @@ hotkey.bind(mash_shift, ']', function () hs.eventtap.keyStroke({"ctrl"}, "right"
 -- Application selection hotkeys 
 hotkey.bind(mash_shift, '1', function () application.launchOrFocus("Google Chrome") end)
 hotkey.bind(mash_shift, '2', function () application.launchOrFocus("iterm") end)
+
+-- Window movement across screens 
+hotkey.bind(hyper, 'i', function () window.focusedWindow():moveOneScreenNorth() end)
+hotkey.bind(hyper, 'u', function () window.focusedWindow():moveOneScreenSouth() end)
