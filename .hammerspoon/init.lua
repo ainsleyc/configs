@@ -7,6 +7,12 @@ local osascript = require("hs.osascript")
 local mash 	 = {"ctrl", "alt"}
 local mash_shift = {"ctrl", "shift"}
 
+hyper = {"ctrl", "alt", "cmd"}
+hypershift = {"ctrl", "alt", "cmd", "shift"}
+
+require('watcher')
+require('position')
+
 local function keyCode(key)
   return function() eventtap.keyStroke({}, key) end
 end
