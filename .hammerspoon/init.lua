@@ -120,6 +120,10 @@ hotkey.bind({"ctrl"}, 'l', keyCode('right'),  nil,   keyCode('right') )
 hotkey.bind(mash_shift, 'h', mashShiftLeft)
 hotkey.bind(mash_shift, 'l', mashShiftRight)
 
+-- Spaces switching hotkeys 
+hotkey.bind(mash_shift, '[', function () hs.eventtap.keyStroke({"ctrl"}, "left") end)
+hotkey.bind(mash_shift, ']', function () hs.eventtap.keyStroke({"ctrl"}, "right") end)
+
 -- Application selection hotkeys 
 hotkey.bind(mash_shift, '1', function () application.launchOrFocus("Google Chrome") end)
 hotkey.bind(mash_shift, '2', function () application.launchOrFocus("iterm") end)
