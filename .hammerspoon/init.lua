@@ -127,6 +127,14 @@ hotkey.bind({"ctrl"}, 'l', keyCode('right'),  nil,   keyCode('right') )
 hotkey.bind(mash_shift, 'h', mashShiftLeft)
 hotkey.bind(mash_shift, 'l', mashShiftRight)
 
+-- Window switching 
+local switcher = window.switcher.new(window.filter.new():setCurrentSpace(true):setDefaultFilter{})
+hotkey.bind(mash_shift, 'i', function() switcher:next() end)
+hotkey.bind(mash_shift, 'u', function() switcher:previous() end)
+
+-- Window switching, focused application
+-- TODO
+
 -- Spaces switching hotkeys 
 hotkey.bind(mash_shift, '[', function () hs.eventtap.keyStroke({"ctrl"}, "left") end)
 hotkey.bind(mash_shift, ']', function () hs.eventtap.keyStroke({"ctrl"}, "right") end)
