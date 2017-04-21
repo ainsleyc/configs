@@ -124,16 +124,37 @@ hotkey.bind({"ctrl"}, 'k', keyCode('up')   ,  nil,   keyCode('up') )
 hotkey.bind({"ctrl"}, 'l', keyCode('right'),  nil,   keyCode('right') )
 
 -- Unified tab cycling 
+
 hotkey.bind(mash_shift, 'h', mashShiftLeft)
 hotkey.bind(mash_shift, 'l', mashShiftRight)
 
 -- Window switching 
 local switcher = window.switcher.new(window.filter.new():setCurrentSpace(true):setDefaultFilter{})
-hotkey.bind(mash_shift, 'i', function() switcher:next() end)
-hotkey.bind(mash_shift, 'u', function() switcher:previous() end)
+hotkey.bind(mash_shift, 'i', function() switcher:previous() end)
+hotkey.bind(mash_shift, 'u', function() switcher:next() end)
 
 -- Window switching, focused application
--- TODO
+local switcherIterm = window.switcher.new(window.filter.new():setCurrentSpace(true):setDefaultFilter(false):setAppFilter('iTerm2'))
+local switcherChrome = window.switcher.new(window.filter.new():setCurrentSpace(true):setDefaultFilter(false):setAppFilter('Google Chrome'))
+
+function appWindowSwitchDown()
+	local frontmostName = application.name(application.frontmostApplication())
+  if frontmostName == 'iTerm2' then switcherIterm:next()
+  elseif frontmostName == 'Google Chrome' then switcherChrome:next()
+  -- else switcher:next()
+  end
+end
+
+function appWindowSwitchUp()
+	local frontmostName = application.name(application.frontmostApplication())
+  if frontmostName == 'iTerm2' then switcherIterm:previous()
+  elseif frontmostName == 'Google Chrome' then switcherChrome:previous()
+  -- else switcher:previous()
+  end
+end
+
+hotkey.bind(mash_shift, 'j', appWindowSwitchDown)
+hotkey.bind(mash_shift, 'k', appWindowSwitchUp)
 
 -- Spaces switching hotkeys 
 hotkey.bind(mash_shift, '[', function () hs.eventtap.keyStroke({"ctrl"}, "left") end)
