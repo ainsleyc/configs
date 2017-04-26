@@ -129,9 +129,9 @@ hotkey.bind(mash_shift, 'h', mashShiftLeft)
 hotkey.bind(mash_shift, 'l', mashShiftRight)
 
 -- Window switching 
-local switcher = window.switcher.new(window.filter.new():setCurrentSpace(true):setDefaultFilter{})
-hotkey.bind(mash_shift, 'i', function() switcher:previous() end)
-hotkey.bind(mash_shift, 'u', function() switcher:next() end)
+-- local switcher = window.switcher.new(window.filter.new():setCurrentSpace(true):setDefaultFilter{})
+-- hotkey.bind(mash_shift, 'i', function() switcher:previous() end)
+-- hotkey.bind(mash_shift, 'u', function() switcher:next() end)
 
 -- Window switching, focused application
 local switcherIterm = window.switcher.new(window.filter.new():setCurrentSpace(true):setDefaultFilter(false):setAppFilter('iTerm2'))
@@ -153,16 +153,17 @@ function appWindowSwitchUp()
   end
 end
 
-hotkey.bind(mash_shift, 'j', appWindowSwitchDown)
-hotkey.bind(mash_shift, 'k', appWindowSwitchUp)
+-- App window switch hotkeys 
+-- hotkey.bind(mash_shift, 'j', appWindowSwitchDown)
+-- hotkey.bind(mash_shift, 'k', appWindowSwitchUp)
 
 -- Spaces switching hotkeys 
 hotkey.bind(mash_shift, '[', function () hs.eventtap.keyStroke({"ctrl"}, "left") end)
 hotkey.bind(mash_shift, ']', function () hs.eventtap.keyStroke({"ctrl"}, "right") end)
 
 -- Application selection hotkeys 
-hotkey.bind(mash_shift, '1', function () application.launchOrFocus("Google Chrome") end)
-hotkey.bind(mash_shift, '2', function () application.launchOrFocus("iterm") end)
+-- hotkey.bind(mash_shift, '1', function () application.launchOrFocus("Google Chrome") end)
+-- hotkey.bind(mash_shift, '2', function () application.launchOrFocus("iterm") end)
 
 -- Window movement across screens 
 hotkey.bind(hyper, 'i', function () window.focusedWindow():moveOneScreenNorth() end)
